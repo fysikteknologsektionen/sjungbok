@@ -226,3 +226,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Temp folder where compilation happens
+tmp/
