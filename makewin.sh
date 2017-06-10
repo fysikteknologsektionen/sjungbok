@@ -15,8 +15,6 @@ cp texter/* tmp/sjungbok/texter/.
 cd tmp/sjungbok
 echo ${PWD}
 
-
-rm *.ind
 touch index.tex
 pdflatex.exe -halt-on-error sjungboken.tex
 
