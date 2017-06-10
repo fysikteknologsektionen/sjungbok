@@ -30,14 +30,14 @@
 % Environment for songs
 \newcounter{song}
 \newenvironment{song}[2]{\begin{flushleft}\stepcounter{song}\huge
-\arabic{song}. #1\index{#1 @#1, \arabic{song}}\end{flushleft}\label{#2}\vspace{-0.5cm}}{\vspace{0.5cm}}
+\arabic{song}. #1\index{#1 @#1, \arabic{song}, #2}\phantomsection\label{#2}\end{flushleft}\vspace{-0.5cm}}{\vspace{0.5cm}}
 
 % Environment for verses
 \newenvironment{vers}[0]{\Large\begin{flushleft}}{\end{flushleft}}
 
 % Commands for comments
 \newcommand{\mel}[1]{\begin{flushleft}\Large\emph{Mel: #1}\end{flushleft}}
-\newcommand{\av}[1]{\begin{flushleft}\Large\emph{av #1}\end{flushleft}}%
+\newcommand{\av}[1]{\begin{flushleft}\Large\emph{Av #1}\end{flushleft}}%
 \newcommand{\kom}[1]{\begin{flushleft}\Large\emph{#1}\end{flushleft}}
 
 
