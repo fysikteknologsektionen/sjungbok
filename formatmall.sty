@@ -2,7 +2,7 @@
 %
 % Våren 2001
 % Början 2006 tillägg av sidlayout, gjort av Joakim Hemsle
-
+% Sommar 2017 Länkar i registret, Johan Winther
 
 % Customizing the Page Layout
 %\setlength{\hoffset}{-1.0 in}
@@ -29,8 +29,8 @@
 
 % Environment for songs
 \newcounter{song}
-\newenvironment{song}[2]{\begin{flushleft}\stepcounter{song}\huge
-\arabic{song}. #1\index{#1 @#1, \arabic{song}, #2}\phantomsection\label{#2}\end{flushleft}\vspace{-0.5cm}}{\vspace{0.5cm}}
+\newenvironment{song}[2]{\begin{flushleft}\stepcounter{song}\phantomsection\label{#2}\huge
+\arabic{song}. #1\index{#1 @#1, \arabic{song}, #2}\end{flushleft}\vspace{-0.5cm}}{\vspace{0.5cm}}
 
 % Environment for verses
 \newenvironment{vers}[0]{\Large\begin{flushleft}}{\end{flushleft}}
