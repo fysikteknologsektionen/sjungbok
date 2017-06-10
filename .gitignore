@@ -229,3 +229,4 @@ $RECYCLE.BIN/
 
 # Temp folder where compilation happens
 tmp/
+*.pdf
