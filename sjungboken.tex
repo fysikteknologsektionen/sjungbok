@@ -1,9 +1,3 @@
-% latex sjungboken.tex
-% makeindex sjungboken.idx
-% cat sjungboken.ind | grep \item | sed -E s/'\\item '\([^,].+\),\ \(.*\),.*/'\1\&\2\\\\'/>indexsort.tex
-% cat indexhead.tex indexsort.tex indexfoot.tex > index.tex
-% Ändra om lite i index.tex
-% latex sjungboken.tex
 \documentclass[12pt,a4paper,notitlepage,twoside]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{formatmall}
@@ -43,64 +37,35 @@
 \include{forord}
 \fancyfoot[RO,LE]{}
 \include{national}
+
 \fancyfoot[RO,LE]{\large Snapsvisor}
 \include{snapsvisor}
+
 \fancyfoot[RO,LE]{\large Hyfsvisor}
 \include{hyfsvisor}
+
 \fancyfoot[RO,LE]{\large Punschvisor}
 \include{punschvisor}
+
 \fancyfoot[RO,LE]{\large Øhlvisor}
 \include{ohlvisor}
+
 \fancyfoot[RO,LE]{\large Vinvisor}
 \include{vinvisor}
+
 \fancyfoot[RO,LE]{\large Bellman}
 \include{bellman}
+
 \fancyfoot[RO,LE]{\large Övriga}
 \include{ovriga}
+
 %\fancyfoot[RO,LE]{\large Julvisor}
 %\include{julvisor}
+
 \fancyfoot[RO,LE]{\large Djungelvrål}
 \include{djungel}
-\fancyfoot[RO,LE]{\large Register}
-%\include{index}
 
+\fancyfoot[RO,LE]{\large Register}
 \include{index}
-%&
 
 \end{document}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
