@@ -91,4 +91,5 @@ cp sjungboken.pdf ../../sjungboken.pdf
 cd ../.
 rm -rf sjungbok
 cd ../.
+AcroRd32.exe sjungboken.pdf
 echo Klar!
