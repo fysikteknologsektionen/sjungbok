@@ -84,12 +84,9 @@ cat indexhead.tex indexsort.tex indexfoot.tex > index.tex
 #mv sjungboken2.ind sjungboken.ind
 #Compile with indexes
 pdflatex.exe -halt-on-error sjungboken.tex
-pdflatex.exe -halt-on-error framsida.tex
 
-cp framsida.pdf ../../framsida.pdf
 cp sjungboken.pdf ../../sjungboken.pdf
 cd ../.
 rm -rf sjungbok
 cd ../.
 AcroRd32.exe sjungboken.pdf
-echo Klar!
