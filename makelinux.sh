@@ -85,9 +85,11 @@ cat indexhead.tex indexsort.tex indexfoot.tex > index.tex
 #Compile with indexes
 pdflatex -halt-on-error sjungboken.tex
 pdflatex -halt-on-error framsida.tex
+pdflatex -halt-on-error sjungboken-print.tex
 
 cp framsida.pdf ../../framsida.pdf
 cp sjungboken.pdf ../../sjungboken.pdf
+cp sjungboken-print.pdf ../../sjungboken-print.pdf
 cd ../.
 rm -rf sjungbok
 cd ../.
