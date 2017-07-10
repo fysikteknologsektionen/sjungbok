@@ -1,7 +1,17 @@
 \documentclass[a6paper]{article}
 \usepackage[a6paper, margin=0in]{geometry}
 \usepackage{pdfpages}
+
+\makeatletter
+\def\app@exe{\immediate\write18}
+\def\precompile{%
+    \app@exe{pdflatex framsida.tex}
+    \app@exe{pdflatex sjungboken.tex}
+    \includepdf[pages=-]{framsida.pdf}
+    \includepdf[pages=-]{sjungboken.pdf}
+  }
+\makeatother
+
 \begin{document}
-\includepdf[pages=-]{framsida.pdf}
-\includepdf[pages=-]{sjungboken.pdf}
+\precompile
 \end{document}
