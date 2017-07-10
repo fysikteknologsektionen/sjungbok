@@ -3,12 +3,14 @@
 \makeatletter
 \def\app@exe{\immediate\write18}
 \def\precompile{%
-  \IfFileExists{./sjungboken2.idx}{}%
+\IfFileExists{./output.log}{ % Utför endast om ShareLaTeX
+  \IfFileExists{./sjungboken2.idx}{}% Kör inte make.sh igen när pdflatex kallas i make
     {
         \app@exe{chmod +x make.sh}%
         \app@exe{./make.sh}%
     }
   }
+ }{}
 \makeatother
 
 \precompile

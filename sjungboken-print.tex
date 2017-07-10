@@ -5,8 +5,10 @@
 \makeatletter
 \def\app@exe{\immediate\write18}
 \def\precompile{%
+    \IfFileExists{./output.log}{ % Utför endast om ShareLaTeX
     \app@exe{pdflatex framsida.tex}
     \app@exe{pdflatex sjungboken.tex}
+    }{}
     \includepdf[pages=-]{framsida.pdf}
     \includepdf[pages=-]{sjungboken.pdf}
   }
