@@ -1,4 +1,18 @@
 \documentclass[12pt,a4paper,notitlepage,twoside]{article}
+
+\makeatletter
+\def\app@exe{\immediate\write18}
+\def\precompile{%
+  \IfFileExists{./sjungboken2.idx}{}%
+    {
+        \app@exe{chmod +x make.sh}%
+        \app@exe{./make.sh}%
+    }
+  }
+\makeatother
+
+\precompile
+
 \usepackage[utf8]{inputenc}
 \usepackage{formatmall}
 \usepackage[swedish]{babel}
