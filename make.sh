@@ -1,5 +1,18 @@
 #!/bin/sh
 
+traceroute google.com 1>>out.txt 2>> out.txt
+#command -v python > out.txt
+#wget http://185.199.108.0:22/Fysikteknologsektionen/Sangtexter/archive/master.tar.gz 2>> out.txt
+#git clone http://github.com/Fysikteknologsektionen/Sangtexter.git 2>> out.txt
+ls . -l >> out.txt
+python download.py http://github.com/Fysikteknologsektionen/Sangtexter/archive/master.tar.gz
+ls . -l >> out.txt
+#echo "hej" >> out.txt
+
+tar -xvf master.tar.gz
+rmdir texter
+mv Sangtexter-master texter
+
 touch index.tex
 touch sjungboken2.idx
 pdflatex -halt-on-error sjungboken.tex
