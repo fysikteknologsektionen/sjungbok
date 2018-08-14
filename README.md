@@ -34,7 +34,7 @@ Detta projekt är kopplat med ett [ShareLaTeX-projekt](https://www.sharelatex.co
 7. Spara filen som `sjungboken.pdf`.
 
 ## Tryckbar bok
-3. Välj `sjungboken-print.tex` och kompilera. Spara filen som `sjungbok.pdf`.
+3. Välj `sjungboken-print.tex` och kompilera. Spara filen som `sjungboken-print.pdf`.
 4. (Frivilligt) Välj `framsida.tex` och kompilera. Spara ner denna fil som `framsida-print.pdf`.
 
 Dessa två filer är nu tryckklara.
