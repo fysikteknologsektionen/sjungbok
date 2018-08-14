@@ -1,4 +1,4 @@
-% För utskrift
+% För utskrift (lägger in A4 PDF:en i A6 format)
 \documentclass{article}
 \usepackage[a6paper, margin=0in]{geometry}
 \usepackage{pdfpages}
@@ -7,10 +7,8 @@
 \def\app@exe{\immediate\write18}
 \def\precompile{%
     \IfFileExists{./output.log}{ % Utför endast om ShareLaTeX
-%    \app@exe{pdflatex framsida.tex} % Framsida kompileras separat
     \app@exe{pdflatex sjungboken.tex}
     }{}
-%    \includepdf[pages=-]{framsida.pdf}
     \includepdf[pages=-]{sjungboken.pdf}
   }
 \makeatother
