@@ -2,6 +2,16 @@
 
 <img src="https://www.ftek.se/wp-content/uploads/2016/10/framsida.png" alt="Omslag" width="20%" />
 
+## Innehållsförteckning
+- [Senaste versionen](#senaste-versionen)
+- [Trycka boken](#trycka-boken)
+- [Göra ändringar](#göra-ändringar)
+  * [Synka ShareLaTeX med GitHub](#synka-sharelatex-med-github)
+- [Kompilera ny version](#kompilera-ny-version)
+  * [Digital bok](#digital-bok)
+  * [Tryckbar bok](#tryckbar-bok)
+  * [Ladda upp ny version](#ladda-upp-ny-version)
+
 # Senaste versionen
 Ladda ner senaste versionen av sjungboken:
 - [Digital version](https://github.com/Fysikteknologsektionen/Sjungbok/raw/master/sjungboken.pdf)
