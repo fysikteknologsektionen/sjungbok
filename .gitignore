@@ -230,5 +230,7 @@ $RECYCLE.BIN/
 # Temp folder where compilation happens
 tmp/
 *.pdf
-sjungboken.pdf
-framsida.pdf
+!sjungboken.pdf
+!sjungboken-print.pdf
+!framsida.pdf
+!framsida-print.pdf
