@@ -1,5 +1,7 @@
 # Encyclopedia Gasquica: Fysikteknologsektionens sjungbok
 
+<img src="https://www.ftek.se/wp-content/uploads/2016/10/framsida.png" alt="Omslag" width="20%" />
+
 # Senaste versionen
 Ladda ner senaste versionen av sjungboken:
 - [Digital version](https://github.com/Fysikteknologsektionen/Sjungbok/raw/master/sjungboken.pdf)
