@@ -24,10 +24,10 @@ Använd den [senaste versionen](#senaste-versionen) av sjungboken. Filerna `fram
 # Göra ändringar
 Det finns olika sätt att göra ändringar i sjungboken (ordnat utifrån smidighet):
 - [Kontakta Sångförmännen direkt](mailto:sangforman@ftek.se) och skriv vilka ändringar du vill göra.
-- Gör en fork av projektet, gör dina ändringar direkt på GitHub och skapa en pull request.
+- Gör en fork av projektet, gör dina ändringar direkt på GitHub och skapa en pull request. Observera att om du vill göra ändringar i låttexter skall detta göras i [Sångtexter-repot](https://github.com/Fysikteknologsektionen/Sangtexter), inte här.
 - (Endast för admins) Ändra i [ShareLaTeX-projektet](https://www.sharelatex.com/read/gcgcqkrtcqby).
 
-## Synka ShareLaTeX med GitHub
+## Synka Overleaf med GitHub 
 Detta projekt är kopplat med ett [ShareLaTeX-projekt](https://www.sharelatex.com/read/gcgcqkrtcqby) som behöver synkas manuellt med GitHub vid ändringar. Denna synkning måste göras innan [kompilering](#kompilera-ny-version).
 1. Välj GitHub i sidomenyn och välj *Pull changes from GitHub* om det finns tillgängliga ändringar.
 2. Välj *Push changes to GitHub* om du har gjort ändringar i ShareLaTeX.
