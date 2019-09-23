@@ -6,7 +6,7 @@
 - [Senaste versionen](#senaste-versionen)
 - [Trycka boken](#trycka-boken)
 - [Göra ändringar](#göra-ändringar)
-  * [Synka ShareLaTeX med GitHub](#synka-sharelatex-med-github)
+  * [Synka Overleaf med GitHub](#synka-overleaf-med-github)
 - [Kompilera ny version](#kompilera-ny-version)
   * [Digital bok](#digital-bok)
   * [Tryckbar bok](#tryckbar-bok)
@@ -25,15 +25,17 @@ Använd den [senaste versionen](#senaste-versionen) av sjungboken. Filerna `fram
 Det finns olika sätt att göra ändringar i sjungboken (ordnat utifrån smidighet):
 - [Kontakta Sångförmännen direkt](mailto:sangforman@ftek.se) och skriv vilka ändringar du vill göra.
 - Gör en fork av projektet, gör dina ändringar direkt på GitHub och skapa en pull request. Observera att om du vill göra ändringar i låttexter skall detta göras i [Sångtexter-repot](https://github.com/Fysikteknologsektionen/Sangtexter), inte här.
-- (Endast för admins) Ändra i [ShareLaTeX-projektet](https://www.sharelatex.com/read/gcgcqkrtcqby).
+
+**OBS** Ändringar skall inte göras i Overleaf-projektet.
 
 ## Synka Overleaf med GitHub 
-Detta projekt är kopplat med ett [ShareLaTeX-projekt](https://www.sharelatex.com/read/gcgcqkrtcqby) som behöver synkas manuellt med GitHub vid ändringar. Denna synkning måste göras innan [kompilering](#kompilera-ny-version).
+Detta projekt är kopplat med ett [Overleaf-projekt](https://www.sharelatex.com/read/gcgcqkrtcqby) som behöver synkas manuellt med GitHub vid ändringar. Denna synkning måste göras innan [kompilering](#kompilera-ny-version).
 1. Välj GitHub i sidomenyn och välj *Pull changes from GitHub* om det finns tillgängliga ändringar.
-2. Välj *Push changes to GitHub* om du har gjort ändringar i ShareLaTeX.
+
+**OBS** Då ändringar ej skall göras i Overleaf bör du aldrig välja *Push changes to GitHub*.
 
 # Kompilera ny version
-1. Öppna [ShareLaTeX-projektet](https://www.sharelatex.com/read/gcgcqkrtcqby).
+1. Öppna [Overleaf-projektet](https://www.sharelatex.com/read/gcgcqkrtcqby).
 2. Följ instruktionerna för en [digital bok](#digital-bok) eller [tryckbar bok](#tryckbar-bok).
 
 ## Digital bok
