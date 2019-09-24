@@ -29,13 +29,13 @@ Det finns olika sätt att göra ändringar i sjungboken (ordnat utifrån smidigh
 **OBS** Ändringar skall inte göras i Overleaf-projektet.
 
 ## Synka Overleaf med GitHub 
-Detta projekt är kopplat med ett [Overleaf-projekt](https://www.sharelatex.com/read/gcgcqkrtcqby) som behöver synkas manuellt med GitHub vid ändringar. Denna synkning måste göras innan [kompilering](#kompilera-ny-version).
+Detta projekt är kopplat med ett [Overleaf-projekt](https://www.overleaf.com/read/bpwsgqxjvjqs) som behöver synkas manuellt med GitHub vid ändringar. Denna synkning måste göras innan [kompilering](#kompilera-ny-version).
 1. Välj GitHub i sidomenyn och välj *Pull changes from GitHub* om det finns tillgängliga ändringar.
 
 **OBS** Då ändringar ej skall göras i Overleaf bör du aldrig välja *Push changes to GitHub*.
 
 # Kompilera ny version
-1. Öppna [Overleaf-projektet](https://www.sharelatex.com/read/gcgcqkrtcqby).
+1. Öppna [Overleaf-projektet](https://www.overleaf.com/read/bpwsgqxjvjqs).
 2. Följ instruktionerna för en [digital bok](#digital-bok) eller [tryckbar bok](#tryckbar-bok).
 
 ## Digital bok
