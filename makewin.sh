@@ -4,6 +4,7 @@ wd=${PWD}
 echo ${PWD}
 
 #Keep it clean
+mkdir tmp
 mkdir tmp/sjungbok
 mkdir tmp/sjungbok/bilder
 mkdir tmp/sjungbok/texter
@@ -93,4 +94,4 @@ cp sjungboken-print.pdf ../../sjungboken-print.pdf
 cd ../.
 rm -rf sjungbok
 cd ../.
-AcroRd32.exe sjungboken.pdf
+rm -rf tmp
