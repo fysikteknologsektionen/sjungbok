@@ -29,9 +29,13 @@
 \setlength{\parindent}{0cm}
 
 % Environment for songs
-\newcounter{song}
-\newenvironment{song}[2]{\begin{flushleft}\phantomsection\label{#2}\huge
-\arabic{song}. #1\index{#1 @#1, \arabic{song}, #2}\end{flushleft}\vspace{-0.5cm}}{\stepcounter{song}\vspace{0.5cm}}
+\newcounter{song}[section]
+\renewcommand*{\thesong}{%
+    \ifnum\value{song}=0 $\Delta$\fi
+    \ifnum\value{song}>0 \arabic{song}\fi
+}
+\newenvironment{song}[2]{\begin{flushleft}\stepcounter{song}\phantomsection\label{#2}\huge
+\Alph{section}.\thesong. #1\index{#1 @#1, \Alph{section}.\thesong, #2}\end{flushleft}\vspace{-0.5cm}}{\vspace{0.5cm}}
 
 % Environment for verses
 \newenvironment{vers}[0]{\Large\begin{flushleft}}{\end{flushleft}}
