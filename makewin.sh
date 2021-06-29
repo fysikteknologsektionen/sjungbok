@@ -54,7 +54,7 @@ mv sjungboken3.idx sjungboken.idx
 
 makeindex.exe sjungboken.idx
 
-cat sjungboken.ind | grep \item | sed -r s/'\\item '\([^,].+\),\ \(.*\),\ \(.*\),.*/'\\hyperref\[\3]{\1}\&\\hyperref\[\3]{\2}\\\\'/>indexsort.tex
+cat sjungboken.ind | grep \item | sed -r s/'\\item '\([^,].+\),\ \(.*\),\ \(.*\),.*/'\\hyperref\[\3]{\1}\\dotfill\\hyperref\[\3]{\2}\\\\'/>indexsort.tex
 cat indexhead.tex indexsort.tex indexfoot.tex > index.tex
 
 #sed  -e '
@@ -84,6 +84,7 @@ cat indexhead.tex indexsort.tex indexfoot.tex > index.tex
 #' < sjungboken.ind > sjungboken2.ind
 #mv sjungboken2.ind sjungboken.ind
 #Compile with indexes
+pdflatex.exe -halt-on-error sjungboken.tex
 pdflatex.exe -halt-on-error sjungboken.tex
 pdflatex.exe -halt-on-error framsida.tex
 pdflatex.exe -halt-on-error sjungboken-print.tex

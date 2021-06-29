@@ -39,7 +39,7 @@ mv sjungboken3.idx sjungboken.idx
 
 makeindex sjungboken.idx
 
-cat sjungboken.ind | grep \item | sed -r s/'\\item '\([^,].+\),\ \(.*\),\ \(.*\),.*/'\\hyperref\[\3]{\1}\&\\hyperref\[\3]{\2}\\\\'/>indexsort.tex
+cat sjungboken.ind | grep \item | sed -r s/'\\item '\([^,].+\),\ \(.*\),\ \(.*\),.*/'\\hyperref\[\3]{\1}\\dotfill\\hyperref\[\3]{\2}\\\\'/>indexsort.tex
 cat indexhead.tex indexsort.tex indexfoot.tex > index.tex
 
 rm sjungboken2.idx
