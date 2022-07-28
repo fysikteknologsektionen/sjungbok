@@ -1,3 +1,5 @@
+**OBS:** Detta projekt har flyttats till [fysikteknologsektionen/sanger](https://github.com/fysikteknologsektionen/sanger).
+
 # Encyclopedia Gasquica: Fysikteknologsektionens sjungbok
 
 <img src="https://www.ftek.se/wp-content/uploads/2016/10/framsida.png" alt="Omslag" width="20%" />
